@@ -25,6 +25,7 @@ public class Kafe03 {
     System.out.println("Item pembelian " + jmlKopi + "kopi, " + jmlTeh + " teh, " + jmlRoti + " roti");
     System.out.println("Nominal bayar Rp " + nominalBayar);
     
+    input.close();
     } 
 }
 

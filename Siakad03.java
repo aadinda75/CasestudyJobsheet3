@@ -39,6 +39,7 @@ public class Siakad03 {
         System.out.println("Nilai Ujian: " + nilaiUjian);
         System.out.println("Nilai Akhir: " + nilaiAkhir);
 
+        sc.close();
         
     }
 }

@@ -4,11 +4,11 @@ public class GajiKaryawan03 {
     public static void main(String[] args) {
       
         Scanner sc = new Scanner(System.in);
-        
+       
         System.out.print("Masukkan jumlah jam kerja dalam sebulan: ");
-        int jamKerja = input.nextInt();
+        int jamKerja = sc.nextInt();
         System.out.print("Masukkan upah per jam: ");
-        double upahPerJam = input.nextDouble();
+        double upahPerJam = sc.nextDouble();
         
         // Menghitung gaji sebelum bonus dan pajak
         double gaji = jamKerja * upahPerJam;
